@@ -39,5 +39,10 @@ __`git mirage <filename>`__ - If you've already commited a file and no longer wa
 
 __`git reveal <filename>`__ - Reveals a file that was hidden by `git mirage`.
 
-__`git stat`__ - Same as built-in `git status`, but is 2 characters shorter.
+__`git ds`__ - Shows the difference between the last commit on your branch, and what you have staged (the green files and dirs, not the red ones).
 
+__`git dh`__ - Shows the difference between the last commit on your branch, and your entire working directory.
+
+__`git dl2`__ - Shows the difference between the last 2 commits you made.
+
+__`git stat`__ - Same as built-in `git status`, but is 2 characters shorter.
