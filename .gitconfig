@@ -8,3 +8,6 @@
   ln = log --pretty=format:'%C(green)%ar%Creset\t| %C(bold cyan)%h%Creset %s %C(yellow)by %an%Creset %C(cyan)@ %ad%Creset' --date=local --max-count='32'
   last = log --pretty=format:'%C(green)%ar%Creset\t| %C(bold cyan)%h%Creset %s %C(cyan)@ %ad%Creset %C(yellow)by %an%Creset' --date=local --max-count='1'
   stat = status
+  ds = diff HEAD --staged
+  dh = diff HEAD
+  dl2 = diff "HEAD^" HEAD
